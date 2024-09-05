@@ -1,10 +1,11 @@
 {
+	
 	"name": "fresh",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"editor.background": "#282c33",
+		"editor.foreground": "#e2e2e2",
+		"activityBarBadge.background": "#e910d7",
+		"sideBarTitle.foreground": "#1dd3eb"
 	},
 	"tokenColors": [
 		{
@@ -59,12 +60,19 @@
 			}
 		},
 		{
-			"name": "Operator, Misc",
+			"name": "Keyword, Storage",
 			"scope": [
 				"keyword.control",
+				"storage.type"
+			],
+			"settings": {
+				"foreground": "#d59fe6"
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
 				"constant.other.color",
-				"punctuation",
-				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
@@ -75,9 +83,15 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#e1dceb"
 			}
 		},
+		{
+			"scope": "keyword.operator",  // Aplica a operadores como =, >, <, +, -, etc.
+			"settings": {
+			  "foreground": "#84c3f7"  // Elige el color que prefieras
+			}
+		  },
 		{
 			"name": "Tag",
 			"scope": [
@@ -86,7 +100,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#84c3f7"
 			}
 		},
 		{
@@ -108,7 +122,7 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#ebe2e2"
 			}
 		},
 		{
@@ -118,7 +132,7 @@
 				"string.other.link"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#4e1214"
 			}
 		},
 		{
@@ -134,7 +148,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -149,7 +163,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#a8cc8e"
 			}
 		},
 		{
@@ -165,7 +179,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#5cd6df"
 			}
 		},
 		{
@@ -199,9 +213,15 @@
 				"variable.other.class.js"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#d11131"
 			}
 		},
+		{
+			"scope": "variable.other.property",  // Esto aplica a los atributos de los objetos
+			"settings": {
+			  "foreground": "#f07d7d"  // Elige el color que prefieras para los atributos de objetos
+			}
+		  },
 		{
 			"name": "Language methods",
 			"scope": [
@@ -209,7 +229,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FF5370"
+				"foreground": "#ac9094"
 			}
 		},
 		{
@@ -219,7 +239,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#82AAFF"
+				"foreground": "#6b97f7"
 			}
 		},
 		{
@@ -229,7 +249,7 @@
 				"variable.function.constructor"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#c2c8d4"
 			}
 		},
 		{
@@ -238,7 +258,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#77c7f5"
 			}
 		},
 		{
@@ -294,7 +314,7 @@
 				"markup.changed"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#cb92f1"
 			}
 		},
 		{
