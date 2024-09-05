@@ -1,0 +1,21 @@
+{
+  "name": "fresh",
+  "displayName": "theme-fresh",
+  "description": "tema relajante y fresco.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "fresh",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fresh-color-theme.json"
+      }
+    ]
+  }
+}
